@@ -53,7 +53,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/kopst/SkyPython/homework_19_2/catalog/templates/main'],
+        'DIRS': [BASE_DIR/'catalog/templates/main'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
